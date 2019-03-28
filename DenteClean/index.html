@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>DenteClean</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.scrollTo.min.js"></script>
+    <script src="js/jquery.localScroll.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('#menuPrincipal').localScroll({
+                target: 'body',
+                /* o efeito vai ser aplicado em td body, target é o alvo*/
+                duration: 1000, // seg
+                offset: -60 // ajuste da posicao
+            });
+        });
+
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="centralizar-conteudo flex-topo">
+            <div class="logo">
+                <img src="img/logo.png"alt="logo DenteClean">
+            </div>
+
+            <nav id="menuPrincipal">
+                <a href="#banner">Inicio</a>
+                <a href="#quemSomos">Quem Somos</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#contato">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <div id="banner"></div>
+
+    <article class="centralizar-conteudo" id="quemSomos">
+        <h1>Odontologia é aqui</h1>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin metus lacus, lacinia sed ligula sed, congue varius orci. Donec eget est ultricies, facilisis sapien ac, placerat ipsum. Nullam lobortis, ex a molestie porttitor, lacus quam finibus magna, a fermentum mi urna ut augue. Duis sodales dapibus eleifend. Aenean malesuada, tellus nec vestibulum vehicula, tellus lectus porta nunc, nec lobortis tortor. Sed eu justo pharetra, ultrices metus ullamcorper, tincidunt dolor.</p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin metus lacus, lacinia sed ligula sed, congue varius orci. Donec eget est ultricies, facilisis sapien ac, placerat ipsum. Nullam lobortis, ex a molestie porttitor, lacus quam finibus magna, a fermentum mi urna ut augue. Duis sodales dapibus eleifend. Aenean malesuada, tellus nec vestibulum vehicula, tellus lectus porta nunc, nec lobortis tortor. Sed eu justo </p>
+
+        <img src="img/imagem-quem-somos.jpg" alt="">
+    </article>
+
+    <article class="centralizar-conteudo" id="servicos">
+        <h1>Nossos serviços</h1>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut urna sapien, quis sollicitudin nunc. Sed commodo pretium feugiat. Quisque id metus ut quam sodales egestas ac sed leo. Proin volutpat consequat mi vitae ornare. Aenean interdum aliquet ornare. Donec massa purus, egestas eu ante varius, consequat sollicitudin libero.</p>
+
+        <figure class="img-direita">
+            <img src="img/imagem-servicos.jpg" alt="">
+
+            <figcaption>Agende sua consulta</figcaption>
+        </figure>
+
+
+        <ul>
+            <li>
+                <h3>Etiam Varius:</h3> accumsan nisl, vel dictum dui sollicitudin vel. Duis ac ro
+                in quam tincidunt varius eu ut lectus. Donec consectetur tortor vitae ipsum convallis ornare. Cras tempor, elit nec eleifend egestas.
+            </li>
+            <li>
+                <h3>Etiam Varius:</h3> accumsan nisl, vel dictum dui sollicitudin vel. Duis ac ro
+                in quam tincidunt varius eu ut lectus. Donec consectetur tortor vitae ipsum convallis ornare. Cras tempor, elit nec eleifend egestas.
+            </li>
+            <li>
+                <h3>Etiam Varius:</h3> accumsan nisl, vel dictum dui sollicitudin vel. Duis ac ro
+                in quam tincidunt varius eu ut lectus. Donec consectetur tortor vitae ipsum convallis ornare. Cras tempor, elit nec eleifend egestas.
+            </li>
+            <li>
+                <h3>Etiam Varius:</h3> accumsan nisl, vel dictum dui sollicitudin vel. Duis ac ro
+                in quam tincidunt varius eu ut lectus. Donec consectetur tortor vitae ipsum convallis ornare. Cras tempor, elit nec eleifend egestas.
+            </li>
+            <li>
+                <h3>Etiam Varius:</h3> accumsan nisl, vel dictum dui sollicitudin vel. Duis ac ro
+                in quam tincidunt varius eu ut lectus. Donec consectetur tortor vitae ipsum convallis ornare. Cras tempor, elit nec eleifend egestas.
+            </li>
+        </ul>
+
+        <div class="clear-float"></div>
+
+    </article>
+
+    <div id="banner-crianca"></div>
+
+    <article class="centralizar-conteudo" id="contato">
+
+        <h1>Contato</h1>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis perspiciatis aspernatur, quam nostrum possimus explicabo error repellat mollitia a illo quod libero maiores provident aperiam voluptatibus impedit rem recusandae distinctio commodi aut soluta, totam porro aliquam et esse? Modi quis laborum ad quos tempora laboriosam perferendis tenetur sunt earum, enim.</p>
+
+        <div class="flex-maps">
+
+            <form action="" method="">
+                <label for="nome">Nome:</label>
+                <input id="nome" type="text">
+
+                <label for="email">Email:</label>
+                <input id="email" type="email">
+
+                <label for="msg">Mensagem:</label>
+                <textarea name="mensagem" id="msg" cols="30" rows="10"></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.190131931921!2d-43.1793738854004!3d-22.906356943613613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997f5e5f6342c9%3A0xf6018ea6cf83f7!2sBurger+King!5e0!3m2!1spt-BR!2sbr!4v1553702251013" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+        </div>
+    </article>
+
+    <footer>
+        <div class="centralizar-conteudo flex-centro">
+            DenteClean - Todos os direitos reservados.
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

@@ -1,0 +1,158 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #aaaaaa;
+    
+}
+
+body header:nth-of-type(1){
+    background-color: rgba(0, 56, 112, 0.75);
+    position: fixed;
+    width: 100%;
+    height: 49px;
+    
+}
+
+.centralizar-conteudo {
+    width: 1000px;
+	margin: 0 auto;
+    
+}
+
+.flex-topo {
+    height: 49px;
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header:nth-of-type(1) a{
+    color: #fffefe;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0 0 0 40px;
+    
+}
+
+header:nth-of-type(1) a:hover{
+    color: #c3c3c3;
+    font-size: 21px;
+}
+
+#banner {
+	width: 100%;
+    height: 100vh; /* se baseia no tam da tela do naveagor, indepente do tam da tela, nesse caso 100% da tela */
+    background-image: url(img/banner.jpg);
+    background-size: cover; /* vai preencher 100% da larg e da altura, e para preservar a qualid da img vai cortar a larg ou altura */
+    background-repeat: no-repeat;
+    background-position: right; /* o q vai ser preservado da img */
+    background-attachment: fixed;
+    
+}
+
+article.centralizar-conteudo{
+    margin-top: 49px;
+}
+
+h1{
+    color: #80aebb;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: 0;
+    
+}
+
+.img-direita {
+	float: right;
+    margin: 0 0 0 50px;
+    font-style: italic;
+}
+
+.clear-float{
+    clear: both;
+}
+
+.centralizar-conteudo h3{
+    display: inline;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.centralizar-conteudo > ul {
+    padding: 0;
+}
+
+.centralizar-conteudo > ul > li{
+    list-style: square;
+    list-style-position: inside;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+#banner-crianca {
+    width: 100%;
+    height: 514px;
+	background-image: url(img/crianca.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 50px;
+}
+
+label, input, textarea{
+    display: block;
+   
+}
+
+input[type="text"], input[type="email"]{
+    width: 286px;
+    height: 26px;
+    margin-bottom: 9px;
+    background-color: #eeeeee;
+    
+}
+
+textarea{
+    width: 403px;
+    height: 143px;
+    background-color: #eeeeee;
+    margin-bottom: 9px;
+    resize: none;
+}
+
+button{
+    background-color: #999999;
+    color: #e8e8e8;
+    padding: 5px 25px;
+}
+
+.flex-maps {
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+iframe{
+    width: 500px;
+    height: 300px;
+}
+
+footer{
+    background-color: #003870;
+    color:#f6f8fa;
+    font-size: 14px;
+    margin-top: 52px;
+}
+
+.flex-centro {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 67px;
+}
+
+
+
+
+
+
